@@ -4,7 +4,7 @@ Este repositório contém o projeto de modelagem e implementação de um banco d
 
 ## 📄 Contexto do Projeto
 
-Este trabalho foi desenvolvido como projeto semestral para a disciplina **SPOBDD1**, ministrada pelo professor **Eurides Balbino** no primeiro semestre de 2025.
+Este trabalho foi desenvolvido como projeto semestral para a disciplina **SPOBDD1** no primeiro semestre de 2025.
 
 O objetivo principal é criar um sistema de banco de dados para auxiliar a **Coordenação Acadêmica (CAC)** do câmpus São Paulo do IFSP na gestão do processo de concessão de bolsas de ensino. O projeto abrange todas as fases de desenvolvimento de um banco de dados, incluindo:
 
@@ -13,8 +13,6 @@ O objetivo principal é criar um sistema de banco de dados para auxiliar a **Coo
 * **C.** Modelo Físico.
 * **D.** Análise das Formas Normais (até FNBC).
 * **E.** Scripts SQL para criação, manipulação e consulta dos dados.
-
-A entrega e apresentação final do projeto estão agendadas para **01/07/2025**.
 
 ## ✨ Funcionalidades e Escopo
 
@@ -39,16 +37,13 @@ O banco de dados foi modelado para suportar as seguintes funcionalidades, com ba
 ```
 /
 ├── sql/
-│   ├── 01_schema_creation.sql  # Script para criar todas as tabelas.
-│   ├── 02_data_insertion.sql   # Script para popular o banco com dados de exemplo.
-│   └── 03_queries.sql          # Exemplos de consultas SQL (simples e complexas).
-│
+│   ├── modelo_fisico.sql       # Script para criar todas as tabelas.
+│   
 ├── diagrams/
 │   ├── conceitual.png          # Diagrama do Modelo Conceitual.
-│   └── logico.png              # Diagrama do Modelo Lógico.
-│
-├── docs/
-│   └── projeto_banco_dados.pdf # O documento original com a descrição do projeto.
+│   ├── logico.png              # Diagrama do Modelo Lógico.
+|   ├── moodelo_conceitual.brM3 # Modelo Conceitual no BRMODELO.
+|   ├── moodelo_logico.brM3     # Modelo Lógico no BRMODELO.
 │
 └── README.md                   # Este arquivo.
 ```
@@ -57,17 +52,6 @@ O banco de dados foi modelado para suportar as seguintes funcionalidades, com ba
 
 * **Linguagem:** SQL (DDL, DML)
 * **Modelagem:** Modelo Entidade-Relacionamento (Notação de Peter Chen)
-
-## 🚀 Como Utilizar
-
-1.  Clone o repositório para a sua máquina local:
-    ```bash
-    git clone [https://github.com/seu-usuario/ifsp-scholarship-management-db.git](https://github.com/seu-usuario/ifsp-scholarship-management-db.git)
-    ```
-2.  Em seu sistema de gerenciamento de banco de dados (SGBD) de preferência (MySQL, PostgreSQL, etc.), execute os scripts SQL na seguinte ordem:
-    1.  `sql/01_schema_creation.sql` para criar toda a estrutura de tabelas.
-    2.  `sql/02_data_insertion.sql` para popular o banco de dados.
-    3.  `sql/03_queries.sql` para testar e visualizar os dados.
 
 ## ✍️ Autor
 

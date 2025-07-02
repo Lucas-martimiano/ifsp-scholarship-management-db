@@ -37,15 +37,17 @@ O banco de dados foi modelado para suportar as seguintes funcionalidades, com ba
 ```
 /
 ├── sql/
-│   ├── modelo_fisico.sql       # Script para criar todas as tabelas.
-│   
+│   ├── mf_create_drop            # Script para criar o banco de dados com as tabelas e os metódos de exclusão.
+│   ├── mf_insertion              # Script para inserir os dados nas tabelas.
+|   ├── mf_select_uptade_delete   # Script para manipular os dados das tabelas. 
+|
 ├── diagrams/
-│   ├── conceitual.png          # Diagrama do Modelo Conceitual.
-│   ├── logico.png              # Diagrama do Modelo Lógico.
-|   ├── moodelo_conceitual.brM3 # Modelo Conceitual no BRMODELO.
-|   ├── moodelo_logico.brM3     # Modelo Lógico no BRMODELO.
+│   ├── conceitual.png            # Diagrama do Modelo Conceitual.
+│   ├── logico.png                # Diagrama do Modelo Lógico.
+|   ├── moodelo_conceitual.brM3   # Modelo Conceitual no BRMODELO.
+|   ├── moodelo_logico.brM3       # Modelo Lógico no BRMODELO.
 │
-└── README.md                   # Este arquivo.
+└── README.md                     # Este arquivo.
 ```
 
 ## 🛠️ Tecnologias Utilizadas
